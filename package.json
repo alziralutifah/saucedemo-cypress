@@ -1,0 +1,16 @@
+{
+  "name": "saucedemo-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-headed": "npx cypress run --spec cypress/e2e/scenarios --browser chrome --headed",
+    "test-headless": "npx cypress run --spec cypress/e2e/scenarios --browser chrome --headless"
+  },
+  "author": "Alzira Lutifah",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.16.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
