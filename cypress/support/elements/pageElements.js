@@ -41,7 +41,7 @@ export const cartPage = {
     checkoutButton: "[data-test='checkout']"
 }
 
-
+//Element untuk Form Information Checkout
 export const formCheckout = {
     firstNameInput: "[data-test='firstName']",
     lastNameInput: "[data-test='lastName']",
