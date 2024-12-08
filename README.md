@@ -20,11 +20,12 @@ npm run test-headless
 npm run test-headed
 ```
 
+
 Here is the report generated using Mochawesome:
  ![report-mochawesome](https://github.com/alziralutifah/saucedemo-cypress/blob/main/report-mochawesome.png)
  
  Failed test:
- ![failed-test](https://github.com/alziralutifah/saucedemo-cypress/blob/main/cypress/screenshots/checkoutEmptyItem.cy.js/Negative%20-%20Checkout%20--%20Checkout%20without%20items%20(failed).png).
+ ![failed-test](https://github.com/alziralutifah/saucedemo-cypress/blob/main/cypress/screenshots/checkoutEmptyItem.cy.js/Negative%20-%20Checkout%20--%20Checkout%20without%20items%20(failed).png)
  Notes:
  The checkout process is completed successfully even though the cart is empty. No validation message is shown to the user to indicate that no items have been added to the cart. The system allows the user to proceed as if the checkout is valid.
 
