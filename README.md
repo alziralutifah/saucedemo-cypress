@@ -23,6 +23,9 @@ npm run test-headed
 
 Here is the report generated using Mochawesome:
  ![report-mochawesome](https://github.com/alziralutifah/saucedemo-cypress/blob/main/report-mochawesome.png)
+
+ atau dapat mengakses melalui file html pada folder:
+ reports/html/index.html
  
  Failed test (Checkout without items):
  ![failed-test](https://github.com/alziralutifah/saucedemo-cypress/blob/main/cypress/screenshots/checkoutEmptyItem.cy.js/Negative%20-%20Checkout%20--%20Checkout%20without%20items%20(failed).png)
